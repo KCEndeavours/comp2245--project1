@@ -37,7 +37,11 @@ main{
 
 .learn-about .container .cards{
     display: grid;
-    grid-template-columns: 100px 150px 200px;
+    grid-template-columns: 200px 200px 200px;
+    
+}
+
+.learn-about .container .cards{
 }
 
 
