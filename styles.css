@@ -30,6 +30,20 @@ main{
     clear: both;
 }
 
+.overview-hero-image{
+    float: left;
+    width: 32;
+    height: auto;
+}
+
+.overview-hero-text{
+    float: right;
+}
+
+.overview-hero{
+    display: flex;
+}
+
 footer {
     clear: both;
 }
