@@ -16,7 +16,6 @@ body {
 
 .container ul {
     float: right;
-    
 }
 
 nav ul{
@@ -30,10 +29,13 @@ main{
     clear: both;
 }
 
+.overview-hero{
+    background-color: rgb(188, 188, 188);
+}
+
 .overview-hero .container{
     display: flex;
     flex-direction: row;
-   /* background-color: rgb(188, 188, 188);*/
 }
 
 .learn-about .container .cards{
@@ -48,6 +50,27 @@ main{
     padding: 20px;
     box-shadow: 1px 3px 4px rgba(0,0,0, 0.3);
 }
+
+.testing .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.cta{
+    margin: auto;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5%;
+    color: #fff;
+    background-color: green;
+}
+
+.stories{
+    clear: both;
+}
+
 footer {
     clear: both;
 }
