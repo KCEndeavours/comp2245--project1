@@ -33,18 +33,21 @@ main{
 .overview-hero .container{
     display: flex;
     flex-direction: row;
+   /* background-color: rgb(188, 188, 188);*/
 }
 
 .learn-about .container .cards{
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    
+    grid-template-columns: 1fr 1fr 1fr;  
 }
 
-.learn-about .container .cards{
+.card{
+    display: grid;
+    border-radius: 2%;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 1px 3px 4px rgba(0,0,0, 0.3);
 }
-
-
 footer {
     clear: both;
 }
