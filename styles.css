@@ -9,3 +9,27 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+.container h1 {
+    float: left;
+}
+
+.container ul {
+    float: right;
+    
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+}
+main{
+    clear: both;
+}
+
+footer {
+    clear: both;
+}
