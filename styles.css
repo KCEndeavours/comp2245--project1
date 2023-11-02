@@ -35,6 +35,12 @@ main{
     flex-direction: row;
 }
 
+.learn-about .container .cards{
+    display: grid;
+    grid-template-columns: 100px 150px 200px;
+}
+
+
 footer {
     clear: both;
 }
