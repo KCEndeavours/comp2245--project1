@@ -31,11 +31,16 @@ main{
 
 .overview-hero{
     background-color: rgb(188, 188, 188);
+    padding: 50px;
 }
 
 .overview-hero .container{
     display: flex;
     flex-direction: row;
+}
+
+.learn-about{
+    padding: 10px;
 }
 
 .learn-about .container .cards{
@@ -49,6 +54,12 @@ main{
     margin: 20px;
     padding: 20px;
     box-shadow: 1px 3px 4px rgba(0,0,0, 0.3);
+}
+
+.testing{
+    background-color: rgb(80,84,100);
+    color: #fff;
+    padding: 75px;
 }
 
 .testing .container{
