@@ -12,16 +12,6 @@ header {
     font-size: 18px;
 }
 
-nav a {
-    color: #6b7280;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #5A67D8;
-}
-
-
 .container {
     margin: 0 auto;
     max-width: 960px;
@@ -43,12 +33,20 @@ nav ul{
 nav ul li{
     display: inline;
 }
+nav a {
+    color: #6b7280;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #5A67D8;
+}
+
 main{
     clear: both;
 }
 
 .overview-hero{
-    background-color: rgb(188, 188, 188);
+    background-color: #E2E8F0;
     padding: 50px;
 }
 .overview-hero .container{
@@ -59,13 +57,18 @@ main{
 .learn-about{
     padding: 10px;
 }
+.learn-about h2{
+    font-size: 24px;
+    color: #48BB78;
+}
 .learn-about .container .cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;  
 }
 .card{
     display: grid;
-    border-radius: 2%;
+    border-radius: 5px;
+    border-color: #E2E8F0;
     margin: 20px;
     padding: 20px;
     box-shadow: 1px 3px 4px rgba(0,0,0, 0.3);
