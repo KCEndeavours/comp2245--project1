@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function(){
         } else {
             msg.textContent = `Thank you! Your email ${userEmail} has been added to our mailing list!`;
         }
-        // msg.textContent = `Thank you! Your email ${userEmail} has been added to our mailing list!`
     });
 });
 
