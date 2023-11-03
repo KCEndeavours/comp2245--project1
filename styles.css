@@ -33,7 +33,6 @@ main{
     background-color: rgb(188, 188, 188);
     padding: 50px;
 }
-
 .overview-hero .container{
     display: flex;
     flex-direction: row;
@@ -42,12 +41,10 @@ main{
 .learn-about{
     padding: 10px;
 }
-
 .learn-about .container .cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;  
 }
-
 .card{
     display: grid;
     border-radius: 2%;
@@ -61,13 +58,11 @@ main{
     color: #fff;
     padding: 75px;
 }
-
 .testing .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
-
 .cta{
     margin: auto;
     padding: 10px;
@@ -80,6 +75,18 @@ main{
 
 .stories{
     clear: both;
+}
+.stories .container article{
+    display: grid;
+    padding-bottom: 50px;
+}
+.stories .container img{
+    border-radius: 50%;
+    grid-column: 1;
+}
+.stories .container .article-body{
+    grid-column: 2;
+    padding-left: 50px;
 }
 
 footer {
