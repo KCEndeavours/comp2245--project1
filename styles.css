@@ -104,11 +104,12 @@ main{
     flex-direction: row;
     justify-content: center;
 }
-
 .newsletter .container .form-group{
     padding-right: 5px;
 }
 
 footer {
-    clear: both;
+    padding: 20px;
+    color: #fff;
+    background-color: #505464;
 }
