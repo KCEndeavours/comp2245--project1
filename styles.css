@@ -12,6 +12,10 @@ header {
     font-size: 18px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     margin: 0 auto;
     max-width: 960px;
@@ -35,7 +39,6 @@ nav ul li{
 }
 nav a {
     color: #6b7280;
-    text-decoration: none;
 }
 nav a:hover {
     color: #5A67D8;
@@ -98,8 +101,11 @@ main{
     background-color: #48BB78;
 }
 
-.stories{
-    clear: both;
+.stories h2{
+    color: #5A67D8;
+}
+.stories a {
+    color: #5A67D8;
 }
 .stories .container article{
     display: grid;
