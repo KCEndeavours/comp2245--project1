@@ -126,7 +126,7 @@ main{
 
 .newsletter{
     padding: 60px;
-    color: #fff;
+    color: white;
     background-color: #48BB78;
 }
 .newsletter .container{
@@ -147,6 +147,6 @@ main{
 
 footer {
     padding: 20px;
-    color: #fff;
-    background-color: #505464;
+    color: white;
+    background-color: #4A5568;
 }
