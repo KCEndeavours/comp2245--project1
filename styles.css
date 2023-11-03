@@ -83,6 +83,7 @@ main{
 .stories .container img{
     border-radius: 50%;
     grid-column: 1;
+    margin-top: 10px;
 }
 .stories .container .article-body{
     grid-column: 2;
