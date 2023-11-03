@@ -111,6 +111,9 @@ main{
     display: grid;
     padding-bottom: 50px;
 }
+.stories .container article h3{
+    font-size: 18px;
+}
 .stories .container img{
     border-radius: 50%;
     grid-column: 1;
