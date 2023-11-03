@@ -127,7 +127,7 @@ main{
 .newsletter{
     padding: 60px;
     color: #fff;
-    background-color: rgb(80,188,124);
+    background-color: #48BB78;
 }
 .newsletter .container{
     text-align: center;
@@ -140,6 +140,9 @@ main{
 }
 .newsletter .container .form-group{
     padding-right: 5px;
+}
+.newsletter .container .btn{
+    background-color: #4A5568;
 }
 
 footer {
