@@ -61,6 +61,10 @@ main{
     font-size: 24px;
     color: #48BB78;
 }
+.learn-about h3{
+    font-size: 21px;
+    color: #48BB78;
+}
 .learn-about .container .cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;  
